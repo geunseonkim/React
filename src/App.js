@@ -1,10 +1,10 @@
 import Box from './component/Box';
-import 유저주먹 from "./assets/ur.jpg";
-import 유저보 from "./assets/up.jpg";
-import 유저가위 from "./assets/us.jpg";
-import 컴퓨터주먹 from "./assets/cr.jpg";
-import 컴퓨터보 from "./assets/cp.jpg";
-import 컴퓨터가위 from "./assets/cs.jpg";
+import ur from "./assets/ur.jpg";
+import up from "./assets/up.jpg";
+import us from "./assets/us.jpg";
+import cr from "./assets/cr.jpg";
+import cp from "./assets/cp.jpg";
+import cs from "./assets/cs.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandBackFist } from "@fortawesome/free-regular-svg-icons";
 import { faHand } from "@fortawesome/free-regular-svg-icons";
@@ -15,17 +15,17 @@ import { useState } from 'react';
 const choice = {
   주먹: {
     name: "주먹",
-    img: 유저주먹,
+    img: ur,
     num: "0"
   },
   보: {
     name: "보",
-    img: 유저보,
+    img: up,
     num: "1"
   },
   가위: {
     name: "가위",
-    img: 유저가위,
+    img: us,
     num: "2"
   }
 };
@@ -41,11 +41,11 @@ function App(props) {
       let randomNum = Math.floor((Math.random()*10)%3);
       // console.log(randomNum);
       if (randomNum == 0) {
-        setAutoPlay(컴퓨터주먹);
+        setAutoPlay(cr);
       } else if (randomNum == 1) {
-        setAutoPlay(컴퓨터보);
+        setAutoPlay(cp);
       } else {
-        setAutoPlay(컴퓨터가위); // 2
+        setAutoPlay(cs); // 2
       }
       judgement(choice[userChoice], randomNum);
     };
