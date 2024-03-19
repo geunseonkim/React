@@ -1,5 +1,5 @@
 import React from 'react'
-import 초기사진 from "../assets/초기사진.jpg"
+import 초기사진 from "../assets/init.jpg"
 
 function Box(props) {
     let result;

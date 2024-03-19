@@ -1,10 +1,10 @@
 import Box from './component/Box';
-import 유저주먹 from "./assets/유저-주먹.jpg";
-import 유저보 from "./assets/유저-보.jpg";
-import 유저가위 from "./assets/유저-가위.jpg";
-import 컴퓨터주먹 from "./assets/컴퓨터-주먹.jpg";
-import 컴퓨터보 from "./assets/컴퓨터-보.jpg";
-import 컴퓨터가위 from "./assets/컴퓨터-가위.jpg";
+import 유저주먹 from "./assets/ur.jpg";
+import 유저보 from "./assets/up.jpg";
+import 유저가위 from "./assets/us.jpg";
+import 컴퓨터주먹 from "./assets/cr.jpg";
+import 컴퓨터보 from "./assets/cp.jpg";
+import 컴퓨터가위 from "./assets/cs.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandBackFist } from "@fortawesome/free-regular-svg-icons";
 import { faHand } from "@fortawesome/free-regular-svg-icons";
